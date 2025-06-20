@@ -2,6 +2,13 @@
 
 The project starts off with Normalizing the data and creating the tables. Next, an empty staging table is created and the cleaning of data is done. ELT process is all about pre-processing the raw data prior to loading it to the normalized tables. 
 
+## 🛠️ Technologies Used
+
+![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue?logo=sql)
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-Database-red?logo=microsoftsqlserver)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange?logo=tableau)
+![Tableau Prep](https://img.shields.io/badge/Tableau%20Prep-ETL%20Tool-lightgrey?logo=tableau)
+
 ## 📌 Project Summary
 
 The project is divided into two main phases:
@@ -59,10 +66,5 @@ CREATE TABLE Staging_ElectricVehicles (
 ### 5️⃣ Mapping Data to Normalized table
    Final transformation: data from the staging table was mapped and inserted into normalized tables using SQL joins. Using Script [Insert Script](sql/Insert_data_from_staging.sql)
 
-## 🛠️ Technologies Used
 
-![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue?logo=sql)
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-Database-red?logo=microsoftsqlserver)
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange?logo=tableau)
-![Tableau Prep](https://img.shields.io/badge/Tableau%20Prep-ETL%20Tool-lightgrey?logo=tableau)
 

@@ -32,15 +32,3 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
    Normalized tables were created based on the final schema. Using the script [Normalized Tables Script](Normalized_tables.sql)
 ### 5️⃣ Mapping Data to Normalized table
    Final transformation: data from the staging table was mapped and inserted into normalized tables using SQL joins. Using Script [Insert Script](Insert_data_from_staging.sql)
-   
-## 📁 Folder Structure
-E-Vehicle-DataEngineering-ELT/
-├── data/
-│ └── Electric_Vehicle_Population_Data.csv
-├── sql/
-│ ├── Staging_table.sql
-│ ├── Normalized_tables.sql
-│ └── Insert_data_from_staging.sql
-├── tableau_prep/
-│ └── Flow.tfl
-└── README.md

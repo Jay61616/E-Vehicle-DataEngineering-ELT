@@ -2,9 +2,11 @@
 
 The project starts off with Normalizing the data and creating the tables. Next, an empty staging table is created and the cleaning of data is done. ELT process is all about pre-processing the raw data prior to loading it to the normalized tables. 
 
-### Phase 1: Normalization was done and tables were divided based on the 3rd Normal form.​
+### Phase 1: 
+Normalization was done and tables were divided based on the 3rd Normal form.​
 
-### Phase 2: ELT process opted and cleaning was done in tableau prep and data was inserted into normalized tables.
+### Phase 2: 
+ELT process opted and cleaning was done in tableau prep and data was inserted into normalized tables.
 
 ## Normalizing the tables:
 Normalization is accomplished by dividing a huge table into smaller, more manageable tables that adhere to specific standards or normal forms.​

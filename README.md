@@ -65,7 +65,7 @@ CREATE TABLE Staging_ElectricVehicles (
 
 ## ✍️ Author
 
-   **Jaya Chandra Kadivati**
+   **Jaya Chandra Kadiveti**
    
    Data Engineering Enthusiast | SQL, ETL, Tableau, Data Pipelines
    

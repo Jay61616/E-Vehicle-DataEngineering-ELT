@@ -63,5 +63,10 @@ CREATE TABLE Staging_ElectricVehicles (
 ### 5️⃣ Mapping Data to Normalized table
    Final transformation: data from the staging table was mapped and inserted into normalized tables using SQL joins. Using Script [Insert Script](sql/Insert_data_from_staging.sql)
 
+## ✍️ Author
+   Jaya Chandra Kadivati
+   Data Engineering Enthusiast | SQL, ETL, Tableau, Data Pipelines
+
+   [LinkedIn](https://www.linkedin.com/in/jayachandrakadiveti/) • [Email](Kadivetijayachandra@gmail.com)
 
 

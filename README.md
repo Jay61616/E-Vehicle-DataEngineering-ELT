@@ -12,7 +12,7 @@ Normalization is accomplished by dividing a huge table into smaller, more manage
 ELT:
 Moving on with the ELT process includes 
 1. Creating the Staging Table.
-   Then Staging tables are created using the query [View Staging Table SQL](staging_table.sql)
+   Then Staging tables are created using the query [View Staging Table SQL](Staging_table.sql)
 2. Loading the raw data.
    ![513fd44f-ca6f-43fa-9827-1d4a24e3872c](https://github.com/user-attachments/assets/2004a4ea-9657-4f7e-9ff0-5e0ac8482d6c)
 3. Processing data.
@@ -20,4 +20,4 @@ Moving on with the ELT process includes
 4. Creating Normalized table.
    Normalized Tables are created using the query [Normalized Tables Script](Normalized_tables.sql)
 5. Mapping Data to Normalized table.
-   Mapping is done using the insert command using the query [Insert Script](insert_data_from_staging.sql)
+   Mapping is done using the insert command using the query [Insert Script](Insert_data_from_staging.sql)

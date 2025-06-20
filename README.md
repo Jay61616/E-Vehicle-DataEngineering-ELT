@@ -21,15 +21,20 @@ ELT process opted and cleaning was done in tableau prep and data was inserted in
 Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were created to form a relational schema.
 
 ## 🔁 ELT Workflow
-
 ### 1️⃣ Creating the Staging Table
    The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](Staging_table.sql)
+   ```sql CREATE TABLE Staging_ElectricVehicles (VIN VARCHAR(20), County VARCHAR(100), City VARCHAR(100), State CHAR(2), PostalCode VARCHAR(10), ModelYear INT, Make VARCHAR(50), Model VARCHAR(100), EVType VARCHAR(100), CAFV_Eligibility VARCHAR(150), ElectricRange INT, BaseMSRP DECIMAL(10, 2), LegislativeDistrict INT, DOLVehicleID BIGINT, VehicleLocation VARCHAR(100), ElectricUtility VARCHAR(200), CensusTract BIGINT );```
+   
 ### 2️⃣ Loading the raw data
-   Raw electric vehicle data was loaded into the staging table.  
+   Raw electric vehicle data was loaded into the staging table.
+   
    ![513fd44f-ca6f-43fa-9827-1d4a24e3872c](https://github.com/user-attachments/assets/2004a4ea-9657-4f7e-9ff0-5e0ac8482d6c)
+   
 ### 3️⃣ Processing data
-   Initial cleaning and filtering was performed using Tableau Prep.  
+   Initial cleaning and filtering was performed using Tableau Prep.
+   
    ![8f3875ad-a102-41c4-bcf5-0c06d7f08f61](https://github.com/user-attachments/assets/550a3e8f-36d7-4aa7-bf24-ed1b34f37aaf)
+   
 ### 4️⃣ Creating Normalized table
    Normalized tables were created based on the final schema. Using the script [Normalized Tables Script](Normalized_tables.sql)
 ### 5️⃣ Mapping Data to Normalized table

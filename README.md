@@ -18,6 +18,6 @@ Moving on with the ELT process includes
 3. Processing data.
    ![8f3875ad-a102-41c4-bcf5-0c06d7f08f61](https://github.com/user-attachments/assets/550a3e8f-36d7-4aa7-bf24-ed1b34f37aaf)
 4. Creating Normalized table.
-   Normalized Tables are created using the query [Normalized Tables Script](sql/normalized_tables.sql)
+   Normalized Tables are created using the query [Normalized Tables Script](E-Vehicle-DataEngineering-ELT/Normalized_tables.sql)
 5. Mapping Data to Normalized table.
    Mapping is done using the insert command using the query [Insert Script](sql/insert_data_from_staging.sql)

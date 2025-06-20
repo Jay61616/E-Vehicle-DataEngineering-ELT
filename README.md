@@ -14,7 +14,7 @@ ELT process opted and cleaning was done in tableau prep and data was inserted in
 
 ## 🧱 Data Normalization
 ## Normalizing the tables:
-Normalization is the process of structuring data into smaller, manageable tables that follow relational database principles.​
+'Normalization' is the process of structuring data into smaller, manageable tables that follow relational database principles.​
 ![3de3b3d5-8efd-471d-93a6-4f23b436b04f](https://github.com/user-attachments/assets/ef6289c8-ab37-4dc5-a6ef-b8d70d4d36f7)
 Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were created to form a relational schema.
 

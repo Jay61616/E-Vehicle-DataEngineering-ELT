@@ -1,5 +1,5 @@
 # ⚙️ E-Vehicle-DataEngineering-ELT
-The project starts off with Normalizing the data and creating the tables. Next, an empty staging table is created and the cleaning of data is done. ELT process is all about pre-processing the raw data prior to loading it to the normalized tables. 
+The project starts off with Normalizing the data and creating the tables. Next, an empty staging table is created and the cleaning of data is done. ELT process is all about pre-processing the raw data prior to loading it to the normalized tables. [Profile](https://www.linkedin.com/in/jayachandrakadiveti/)
 
 ## 🛠️ Technologies Used
 ![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue?logo=sql)

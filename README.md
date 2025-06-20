@@ -10,12 +10,10 @@ The project starts off with Normalizing the data and creating the tables. Next, 
 ## 📌 Project Summary
 The project is divided into two main phases:
 
-###🔹Phase 1: 
-
+### 🔹Phase 1: 
 Normalization was done and tables were divided based on the 3rd Normal form.​
 
-###🔹Phase 2: 
-
+### 🔹Phase 2: 
 ELT process opted and cleaning was done in tableau prep and data was inserted into normalized tables.
 
 ## 🧱 Data Normalization

@@ -22,7 +22,7 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
 
 ## 🔁 ELT Workflow
 ### 1️⃣ Creating the Staging Table
-   The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](Staging_table.sql)
+   The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](sql/Staging_table.sql)
    ```sql
 CREATE TABLE Staging_ElectricVehicles (
     VIN VARCHAR(20),
@@ -55,6 +55,6 @@ CREATE TABLE Staging_ElectricVehicles (
    ![8f3875ad-a102-41c4-bcf5-0c06d7f08f61](https://github.com/user-attachments/assets/550a3e8f-36d7-4aa7-bf24-ed1b34f37aaf)
    
 ### 4️⃣ Creating Normalized table
-   Normalized tables were created based on the final schema. Using the script [Normalized Tables Script](Normalized_tables.sql)
+   Normalized tables were created based on the final schema. Using the script [Normalized Tables Script](sql/Normalized_tables.sql)
 ### 5️⃣ Mapping Data to Normalized table
-   Final transformation: data from the staging table was mapped and inserted into normalized tables using SQL joins. Using Script [Insert Script](Insert_data_from_staging.sql)
+   Final transformation: data from the staging table was mapped and inserted into normalized tables using SQL joins. Using Script [Insert Script](sql/Insert_data_from_staging.sql)

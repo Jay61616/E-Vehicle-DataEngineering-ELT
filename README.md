@@ -69,6 +69,6 @@ CREATE TABLE Staging_ElectricVehicles (
    
    Data Engineering Enthusiast | SQL, ETL, Tableau, Data Pipelines
    
-   [LinkedIn](https://www.linkedin.com/in/jayachandrakadiveti/) • [Email](Kadivetijayachandra@gmail.com)
+   [LinkedIn](https://www.linkedin.com/in/jayachandrakadiveti/) • [Email](mailto:Kadivetijayachandra@gmail.com)
 
 

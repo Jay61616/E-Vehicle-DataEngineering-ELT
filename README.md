@@ -23,8 +23,8 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
 ## 🔁 ELT Workflow
 ### 1️⃣ Creating the Staging Table
    The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](Staging_table.sql)
-   
-   ```sql CREATE TABLE Staging_ElectricVehicles (
+   ```sql
+CREATE TABLE Staging_ElectricVehicles (
     VIN VARCHAR(20),
     County VARCHAR(100),
     City VARCHAR(100),
@@ -42,7 +42,8 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
     VehicleLocation VARCHAR(100),
     ElectricUtility VARCHAR(200),
     CensusTract BIGINT
-);```
+);
+```
 ### 2️⃣ Loading the raw data
    Raw electric vehicle data was loaded into the staging table.
    

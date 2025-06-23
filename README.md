@@ -26,7 +26,7 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
 
 ## 🔁 ELT Workflow
 ### 1️⃣ Creating the Staging Table
-   The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](sql/Staging_table.sql)
+   The raw CSV data was first loaded into a staging table for preprocessing by the script [Staging Table SQL](sql/Staging_tables.sql)
    ```sql
 CREATE TABLE Staging_ElectricVehicles (
     VIN VARCHAR(20),

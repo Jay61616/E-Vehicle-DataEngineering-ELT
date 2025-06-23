@@ -8,7 +8,7 @@ The project starts off with Normalizing the data and creating the tables. Next, 
 ![Tableau Prep](https://img.shields.io/badge/Tableau%20Prep-ETL%20Tool-lightgrey?logo=tableau)
 
 ## 📌 Project Summary
-The project is divided into two main phases:
+The dataset is taken from the website [Data.gov](https://catalog.data.gov/dataset/electric-vehicle-population-data). The project is divided into two main phases:
 
 ### 🔹Phase 1: 
 Normalization was done and tables were divided based on the 3rd Normal form.​

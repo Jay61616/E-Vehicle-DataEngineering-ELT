@@ -69,6 +69,6 @@ Tables like `Vehicle`, `Make`, `Model`, `Transactions`, and `Location` were crea
    
    Data Engineering Enthusiast | SQL, ETL, Tableau, Data Pipelines
    
-   [LinkedIn](https://www.linkedin.com/in/jayachandrakadiveti/) • [Email](mailto:Kadivetijayachandra@gmail.com)
+   [LinkedIn](https://www.linkedin.com/in/jayachandrakadiveti/) • [Email](mailto:datawithjay1@gmail.com)
 
 
